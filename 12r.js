@@ -159,8 +159,8 @@ function playGame(yourMove){
     .innerHTML = result;
 
   document.querySelector('.moves')
-    .innerHTML = `You <img src="images/${yourMove}-emoji.png" alt="${yourMove} symbol" class="hand-symbol"> 
-    <img src="images/${computermove}-emoji.png" alt="${computermove} symbol" 
+    .innerHTML = `You <img src="./image/${yourMove}-emoji.png" alt="${yourMove} symbol" class="hand-symbol"> 
+    <img src="./image/${computermove}-emoji.png" alt="${computermove} symbol" 
     class="hand-symbol">
     Computer`;
 
