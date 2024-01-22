@@ -78,6 +78,10 @@ body{
   margin-top: 100px;
 }
 
+.js-confirm{
+    margin-right: 5px;
+  }
+
 @media(max-width:700px){
   body{
     flex-direction: column;
@@ -90,9 +94,6 @@ body{
     flex-direction: column;
     margin-top: opx;
     gap: 10px;
-  }
-  .js-confirm{
-    margin-right: 5px;
   }
   .reset-para{
     margin-bottom: 0px ;
