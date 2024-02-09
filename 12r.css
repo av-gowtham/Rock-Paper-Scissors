@@ -58,6 +58,7 @@ body{
 .js-confirm:hover,
 .js-not-confirm:hover{
   background-color: rgb(149, 0, 0);
+  color:white;
 }
 
 .js-confirmation{
